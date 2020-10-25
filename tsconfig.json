@@ -1,0 +1,25 @@
+{
+  "include": [
+    "index.ts"
+  ],
+  "compilerOptions": {
+    "lib": ["dom", "es6", "es2015", "es5"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "strict": true,
+    "target": "es5",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "preserveConstEnums": false
+  },
+  "paths": {
+      "*": [
+        "*",
+        "../types/*"
+      ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,11 @@
+/node_modules
+/temp
+/test
+
+/index.js
+sqlite
+config.dev.ts
+*.traineddata
+
+yarn.lock
+package-lock.json
